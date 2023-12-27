@@ -22,9 +22,6 @@
 .presentacion{
 padding: 100px;
 }
-.portfolio{
-  padding: 100px;
-}
 .contacto{
   padding: 50px;
 }
@@ -66,4 +63,11 @@ footer{
 }
 .navbar-toggler {
   background-color: #FFF!important;
+}
+.form-control:focus {
+  background-color:whitesmoke !important; 
+  border-color: #e7e7e7 !important;
+  color: black!important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(114, 114, 114, 0.25) !important;
 }
