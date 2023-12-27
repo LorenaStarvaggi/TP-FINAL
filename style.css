@@ -1,0 +1,69 @@
+
+#navTop .mi-link{
+  margin-right: 30px;
+ }
+
+.mi-link{
+  color: white;
+  text-decoration: none;
+  transition: transform 1s, weight 5s;
+ }
+
+.mi-link:hover {
+  transition: all 1s;
+  color: #CCC;
+}
+.mi-imag {
+  width: 20px;
+}
+.link-noline {
+  text-decoration: none;
+}
+.presentacion{
+padding: 100px;
+}
+.portfolio{
+  padding: 100px;
+}
+.contacto{
+  padding: 50px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+p{
+text-align: justify;  
+}
+.gallery-item {
+  overflow: hidden
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.gallery-item img:hover {
+  transform: scale(1.1);
+  }
+
+footer{
+  background-color: rgb(165, 150, 150);
+  width: 100%;
+}
+.mi-imagf {
+  width: 20px;
+}
+
+#carouselHero {
+  padding-top: 55px;
+  height: 100vh;
+}
+.navbar-toggler {
+  background-color: #FFF!important;
+}
